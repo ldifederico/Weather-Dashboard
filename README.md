@@ -6,7 +6,7 @@ This application is designed to generate the weather, based on city name input b
 
 The applicatication will deploy by selecting the following link, https://ldifederico.github.io/Weather-Dashboard/. The window will appear as shown below.
 
-![Image of Screen Shot](https://raw.githubusercontent.com/ldifederico/master/Weather-Dashboard/screenshot.png)
+![Image of Screen Shot](https://github.com/ldifederico/Weather-Dashboard/blob/master/screenshot.png?raw=true)
 
 **Methodology**
 
