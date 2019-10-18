@@ -1,0 +1,48 @@
+html {
+    font-family: "Avenir Next", Helevetica, sans-serif;
+    text-align: center;
+}
+  
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.row {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#row1 {
+    height: fit-content;
+}
+
+.col-4 {
+    padding: 2%;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+#currentCard {
+    padding: 2%;
+    border: lightgray solid 0.5px;
+    height: fit-content;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border: none;
+}
+
+#fiveDay {
+    background-color: #f8f9fa;
+    height: fit-content;
+    padding: 2%;
+}
+

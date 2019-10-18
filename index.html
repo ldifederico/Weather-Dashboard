@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <title> Weather </title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid" id="header">
+        <div class="container">
+            <h1 class="display-4">Weather Dashboard</h1>
+        </div>
+    </div>
+
+    <div class="row" id="row1">
+        <div class="col-4">
+            <nav class="navbar navbar-light bg-light">
+                <h4>Search for a city:</h4>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" id="location" type="search" placeholder="Search a city" aria-label="Search">
+                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit" id="search">Search</button>
+                </form>
+            </nav>
+
+            <div class="list-group">
+                <a class="list-group-item list-group-item-action">Toronto</a>
+                <a class="list-group-item list-group-item-action">Montreal</a>
+                <a class="list-group-item list-group-item-action">Ottawa</a>  
+                <a class="list-group-item list-group-item-action">Vancouver</a>
+                <a class="list-group-item list-group-item-action">Victoria</a>
+                <a class="list-group-item list-group-item-action">Calgary</a>
+                <a class="list-group-item list-group-item-action">Edmonton</a>  
+                <a class="list-group-item list-group-item-action">Charlottetown</a>  
+            </div>
+        </div>
+
+        <div class="col-8">
+            <div class="row" >
+                <div class="card" id="currentCard">
+                    <h3 class="card-title" id="date"></h3>
+                    <img src="" class="card-img" id="currentWeatherImg" alt="currentWeatherImg" height="30%" width="20%">
+                    <ul class="list-group list-group-flush">
+                        <li class="currentTemperature"></li>
+                        <li class="currentHumidity"></li>
+                        <li class="currentWindspeed"></li>
+                        <li class="currentUvIndex"></li>
+                    </ul>                            
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <h3>5-Day Forecast:</h3>
+            </div>
+
+            <div class="row">
+                <div class="card-deck">
+                    <div class="card" id="fiveDay">
+                        <h6 class="day1" id="date1"></h6>
+                        <img src="" class="card-img" id="weatherImg1" alt="weatherImg1">
+                        <p class="temperature1"></p>
+                        <p class="humidity1"></p>
+                    </div>
+                    <div class="card" id="fiveDay">
+                        <h6 class="day2" id="date2"></h6>
+                        <img src="" class="card-img" id="weatherImg2" alt="weatherImg2">
+                        <p class="temperature2"></p>
+                        <p class="humidity2"></p>
+                    </div>
+                    <div class="card" id="fiveDay">
+                        <h6 class="day3" id="date3"></h6>
+                        <img src="" class="card-img" id="weatherImg3" alt="weatherImg3">
+                        <p class="temperature3"></p>
+                        <p class="humidity3"></p>
+                    </div>
+                    <div class="card" id="fiveDay">
+                        <h6 class="day4" id="date4"></h6>
+                        <img src="" class="card-img" id="weatherImg4" alt="weatherImg4">
+                        <p class="temperature4"></p>
+                        <p class="humidity4"></p>
+                    </div>
+                    <div class="card" id="fiveDay">
+                        <h6 class="day5" id="date5"></h6>
+                        <img src="" class="card-img" id="weatherImg5" alt="weatherImg5">
+                        <p class="temperature5"></p>
+                        <p class="humidity5"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/moment"></script>
+    <script src="script.js"></script>
+</body>
+</html>
