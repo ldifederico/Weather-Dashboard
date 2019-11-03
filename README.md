@@ -1,7 +1,5 @@
 ## Weather Dashboard
 
-**Description**
-
 This application is designed to generate the weather, based on city name input by user. The Weather Dashboard uses the OpenWeather API to retrieve current meteorological data and 5-day forecasted meteorological data.
 
 The applicatication will deploy by selecting the following link, https://ldifederico.github.io/Weather-Dashboard/. The window will appear as shown below.
